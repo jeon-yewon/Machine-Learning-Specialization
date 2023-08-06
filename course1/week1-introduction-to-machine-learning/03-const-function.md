@@ -8,7 +8,7 @@ $$f_{w,b}(x) = wx + b$$
 [Learn more about parameters](https://github.com/jeon-yewon/Machine-Learning-Specialization/blob/main/course1/week1-introduction-to-machine-learning/a01-paramter-and-variable.md)
 
 ### Find parameters($w$,$b$)
-- 모든 $(x^{(i)}, y^{(i)})에 대해 $예측 값 $\hat{y}^{(i)}$이 실제 target 값인 $y^(i)$에 가까운 값이 될 수 있도록하는 $w$, $b$를 찾는다
+- 모든 $(x^{(i)}, y^{(i)})$에 대해 예측 값 $\hat{y}^{(i)}$이 실제 target 값인 $y^(i)$에 가까운 값이 될 수 있도록하는 $w$, $b$를 찾는다
 - 즉, how to measure how well a line __fits__ the training data
 
 ## Cost Function Formula
@@ -29,3 +29,5 @@ $$J(w,b) = \frac{1}{2m} * \sum_{i=1}^{m}(f_{w,b}(x^{(i)}) - y^{(i)})^2$$
 
 ## Cost Function Intuition
 Squared error cost function에서 우리는 가장 적은 결과 값을 가지는 Cost function $J$를 찾는다.
+
+## [TBD] Visualizing the cost function

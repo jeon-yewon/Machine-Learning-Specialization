@@ -3,6 +3,8 @@
 
 
 # Parameter
+> Parameters of the model are the variable you can adjust during training in order to improve the model
+> Parameters of the model are adjusted as the model learns from the data. They're also referred to as "coefficients" or "weights"
 - parameter는 모델을 구성하는 요소 중 하나로, 주어진 데이터로부터 parameter의 값을 추정할 수 있다.
 - 새로운 데이터를 예측하기 위해 function을 사용하고, 이때 parameter를 필요로 한다. 
 - model parameter의 예시
